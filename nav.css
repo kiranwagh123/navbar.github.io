@@ -1,0 +1,41 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box; 
+}
+.navbar{
+  /* border: 1px solid red; */
+  height: 10vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.navbar ul{
+  /* border: 1px solid green; */
+  width: 50%;
+  height: 10vh;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+
+.navbar ul li{
+/* border: 1px solid blue; */
+display: inline-block;
+font-size: 1.5rem;
+padding: 1rem;
+color: white;
+transition: all ease .5s;
+
+
+
+}
+.navbar ul li:hover{
+  border-bottom: 2px solid white;
+  background-color: brown;
+}
